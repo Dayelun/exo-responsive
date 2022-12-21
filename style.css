@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bxs-pyramid {
+    font-size: 2em;
+    position: absolute; 
+    color: rgb(255, 255, 255, 0.5);
+    top: 1%;
+    left: 7%;
+    z-index: 1;
+}
+
+.header {
+    background-image: url(/Images/paysage.jpg);
+    background-attachment: fixed;
+    height: 70vh;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+h1 {
+    font-family: 'Comic Neue', cursive;
+    border: solid #5B359D;
+    background-color: #5B359D;
+    color: white;
+    margin-top: 0px;
+    height: 50px;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 25px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 1.188em;
+    color: black;
+    line-height: 12px;
+}
+
+.navbar__accueil {
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.navbar__contact {
+    margin-bottom: 15px;
+}
+
+.navbar ul {
+    list-style: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.header__div {
+    font-family: 'Comic Neue', cursive;    
+    border: solid #5B359D;
+    background-color: #5B359D;
+    color: white;
+    height: 45px;
+    width: 180px;
+    padding-top: 25px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    top: 15%;
+    left: 50%;
+    padding-left: 45px;
+    padding-right: 20px;
+    font-size: 1.2em;
+    transform: translateX(-50%);
+    display: flex;
+    position: absolute;
+}
+
+.header__div__p {
+    top: 3%;
+    position: absolute;
+}
+.bx-menu-alt-right {
+    font-size: 2em;
+    position: absolute;
+    right: 30px;
+    top: 1.1%;
+    color: white;
+}
+
+.header .bxs-pyramid {
+    font-size: 2em;
+    position: absolute; 
+    color: rgb(255, 255, 255, 0.5);
+    z-index: 2;
+    top: 25%;
+    font-size: 1.6em;
+    left: 2%;
+}
+
+.header__h2 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    font-size: 2.1em;
+    color: rgb(255, 255, 255);
+    transform: translateX(-50%);
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    font-weight: 500;
+    line-height: 42px;
+    font-style: normal;
+    width: 391px;
+}
+
+.containers {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.containers__p1 {
+    font-size: 1.75em;
+    line-height: 33px;
+    text-align: center;
+    margin-top: 62px;
+    color: rgb(0, 0, 0, 0.65);
+    margin-left: 20px;
+    margin-right: 19px;
+}
+
+.bx-palette {
+    color: black;
+    font-size: 3.5em;
+}
+
+.containers__article__un__h3 {
+    font-size: 1.625em;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.containers__article__un__p {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.bx-stats {
+    color: black;
+    font-size: 3.5em;
+}
+
+.containers__article__deux__h3 {
+    font-size: 1.625em;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.containers__article__deux__p {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.bxs-color-fill {
+    color: black;
+    font-size: 3.5em;
+}
+
+.containers__article__trois__h3 {
+    font-size: 1.625em;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.containers__article__trois__p {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 64px;
+}
+
+.containers__p2 {
+    font-size: 1.75em;
+    line-height: 33px;
+    text-align: center;
+    color: rgb(0, 0, 0, 0.65);
+    margin-left: 40px;
+    margin-right: 39px;
+    margin-bottom: 27px;
+}
+
+.containers__p3 {
+    font-size: 1.25em;
+    color: rgb(0, 0, 0, 0.4);
+
+}
+
+.footer {
+    border: solid #5B359D;
+    background-color: #5B359D;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer__p {
+    font-size: 0.938em;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.social {
+    justify-content: center;
+    text-align: center;
+}
+
+.bxl-twitter {
+    font-size: 3em;
+    margin-right: 70px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.bxl-facebook-circle {
+    font-size: 3em;
+    margin-right: 70px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.bxl-instagram-alt {
+    font-size: 3em;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.access {
+    margin-left: 29px;
+    font-size: 1.188em;
+    margin-bottom: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: bold;
+}
+
+.footer li a {
+    font-size: 1.188em;
+    font-weight: bold;
+    color: white;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer ul {
+    margin-left: 49px;
+    color: white;
+}
+
+.propos {
+    margin-left: 29px;
+    font-size: 1.188em;
+    margin-bottom: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: bold;
+}
+
+.coordonnees {
+    margin-left: 29px;
+    margin-bottom: 14px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.div__coordonnees {
+    font-weight: bold;
+    font-size: 1.188em;
+    text-decoration: none;
+    padding-bottom: 0px;
+}
+
+.div__coordonnees li {
+    list-style: none;
+}
+
+.coordonnees__p3 {
+    padding-bottom: 40px;
+}
+
+@media screen and (min-width:768px){
+
+    .navbar i {
+        display: none;
+        
+    }
+    .navbar li {
+        color: white;
+    }
+
+    h1 {
+        margin-right: 50%;
+    }
+
+    .navbar ul {
+        display: block ruby;
+        position: absolute;
+        top: 0.7%;
+        right: 0;
+        margin-right: 20px;
+    }
+
+    .navbar__contact {
+        margin-left: 27px;
+    }
+
+    .div__containers {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .div__containers article {
+        width: 40%;
+    }
+
+    .containers__p2 {
+        margin-left: 134px;
+        margin-right: 134px;
+    }
+    
+    .div__footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .coordonnees__p3 {
+        padding-bottom: 0px;
+    }
+
+}
+
+@media screen and (min-width:1279px){
+     h1 {
+        margin-right: 75%;
+    }   
+    
+    .containers__p1 {
+        margin-left: 235px;
+        margin-right: 235px;
+    }
+
+    .containers__article__deux,.containers__article__un,.containers__article__trois {
+            display: flex;
+            flex-direction: column;
+    }
+
+    .div__containers article {
+        width: 30%;
+    }
+
+    
+}
