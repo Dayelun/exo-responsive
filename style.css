@@ -366,5 +366,10 @@ h1 {
         width: 30%;
     }
 
+    .div__footer {
+        display: flex;
+        justify-content: space-around;
+    }
+
     
 }
